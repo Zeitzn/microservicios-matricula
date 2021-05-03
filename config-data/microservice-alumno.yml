@@ -7,11 +7,12 @@ server:
 #Configuracion de base de datos
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/db_matricula?useSSL=false
-    username: desarrollo
-    password: desarrollo
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/db_matricula
+    username: root
+    password: root
   jpa:
+    datasource-platform: org.hibernate.dialect.PostgreSQL10Dialect
     hibernate:
       ddl-auto: update
 logging:
