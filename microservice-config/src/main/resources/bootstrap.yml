@@ -1,0 +1,20 @@
+
+server:
+  port: 8888
+ 
+spring:
+ cloud:
+   discovery:
+    enabled: true
+   config:
+     server:
+       git:
+        default-label: main
+        uri: "https://github.com/Zeitzn/microservicios-matricula.git"
+        search-paths: config-data
+        username: ${GIT_USERNAME}
+        password: ${GIT_PASSWORD}
+ security:
+   user:
+     name: root
+     password: s3cr3t
