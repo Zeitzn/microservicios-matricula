@@ -9,7 +9,7 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/db_matricula
-    username: root
+    username: postgres
     password: root
   jpa:
     datasource-platform: org.hibernate.dialect.PostgreSQL10Dialect
