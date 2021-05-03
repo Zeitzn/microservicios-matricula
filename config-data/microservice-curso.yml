@@ -1,0 +1,24 @@
+server:
+  port: 8091
+  error:
+    include-message: always
+    include-binding-errors: always
+
+#Configuracion de base de datos
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_matricula?useSSL=false
+    username: desarrollo
+    password: desarrollo
+  jpa:
+    hibernate:
+      ddl-auto: update
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"     
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
