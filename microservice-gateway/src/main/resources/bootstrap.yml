@@ -1,0 +1,10 @@
+#Conexion al config-service Spring Cloud Server
+spring:
+  application:
+    name: microservice-gateway
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: root
+      password: s3cr3t
+

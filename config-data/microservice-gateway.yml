@@ -7,15 +7,25 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8099/eureka/
 
-#Configuracion a Gateway
-spring:
-  cloud:
-    gateway:
-      discovery:
-        locator:
-          enabled: true
-      routes:
-      - id: microservice-curso
-        uri: lb://microservice-curso
-        predicates:
-        - Path=/cursos/**
+zuul:
+  routes:
+    catalogo:
+      path: /alumnos/**
+      service-id: microservice-alumno
+    compra:
+      path: /cursos/**
+      service-id: microservice-curso
+
+
+# #Configuracion a Gateway (Spring cloud)
+# spring:
+#   cloud:
+#     gateway:
+#       discovery:
+#         locator:
+#           enabled: true
+#       routes:
+#       - id: microservice-curso
+#         uri: lb://microservice-curso
+#         predicates:
+#         - Path=/cursos/**
