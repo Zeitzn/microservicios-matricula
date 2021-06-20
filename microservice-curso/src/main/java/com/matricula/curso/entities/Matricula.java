@@ -34,4 +34,7 @@ public class Matricula {
 	
 	@Transient
 	private Alumno alumno;
+	
+	@Transient
+	private String port;
 }

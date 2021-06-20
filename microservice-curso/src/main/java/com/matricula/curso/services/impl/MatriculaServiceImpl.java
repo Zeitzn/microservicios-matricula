@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.matricula.curso.client.IAlumnoClient;
@@ -20,25 +21,40 @@ public class MatriculaServiceImpl implements IMatriculaService {
 	
 	@Autowired
     private IAlumnoClient alumnoClient;
+	
+	@Value("${server.port}")
+	private String puerto;
 
 	@Override
 	public Matricula register(Matricula entity) {
-		return repository.save(entity);
+		Matricula matricula = repository.save(entity);
+		matricula.setPort(puerto);
+		return matricula;
 	}
 
 	@Override
 	public Matricula update(Matricula entity) {
-		return repository.save(entity);
+		Matricula matricula = repository.save(entity);
+		matricula.setPort(puerto);
+		return matricula;
 	}
 
 	@Override
 	public List<Matricula> findAll() {
 		List<Matricula> matriculas=repository.findAll();
 		
-		matriculas.forEach(item->{
+//		matriculas.forEach(item->{
+//			Alumno alumno=alumnoClient.findAlumno(item.getAlumnoId()).getBody();
+//			item.setAlumno(alumno);
+//			item.setPort(puerto);
+//		});
+//		
+		matriculas = matriculas.stream().map(item->{
 			Alumno alumno=alumnoClient.findAlumno(item.getAlumnoId()).getBody();
 			item.setAlumno(alumno);
-		});		
+			item.setPort(puerto);
+			return item;
+		}).collect(Collectors.toList());
 		
 		return matriculas;
 	}
@@ -50,6 +66,7 @@ public class MatriculaServiceImpl implements IMatriculaService {
 		if(matricula!=null) {
 			Alumno alumno=alumnoClient.findAlumno(matricula.getAlumnoId()).getBody();
 			matricula.setAlumno(alumno);
+			matricula.setPort(puerto);
 		}
 		return matricula;
 	}

@@ -2,11 +2,18 @@ package com.matricula.curso;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.cloud.openfeign.EnableFeignClients;
+
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Info;
 
 @SpringBootApplication
 @EnableFeignClients
+@OpenAPIDefinition(
+		info=@Info(
+				title = "Microservicio Curso",
+				version = "1.0",
+				description = "Microservicio para la administración de cursos"))
 public class MicroserviceCursoApplication {
 
 	public static void main(String[] args) {

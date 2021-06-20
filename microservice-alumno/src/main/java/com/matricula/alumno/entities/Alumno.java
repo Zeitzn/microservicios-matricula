@@ -8,6 +8,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 
+import org.springframework.data.annotation.Transient;
+
 import lombok.Data;
 
 @Table
@@ -26,4 +28,7 @@ public class Alumno {
 	@NotEmpty(message = "El apellido no debe ser vacío")
 	@Column(length = 100)
 	private String apellidos;
+	
+	@Transient
+	private String port;
 }
