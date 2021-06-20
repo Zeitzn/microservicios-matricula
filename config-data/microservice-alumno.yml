@@ -4,11 +4,11 @@ eureka:
       defaultZone: http://localhost:8099/eureka/
   instance:
     instance-id: ${spring.application.name}:${random.int}
-server:
-  port: ${PORT:0}
-  error:
-    include-message: always
-    include-binding-errors: always
+# server:
+#   port: ${PORT:0}
+#   error:
+#     include-message: always
+#     include-binding-errors: always
 
 #Configuracion de base de datos
 spring:
