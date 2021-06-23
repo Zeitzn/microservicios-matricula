@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.netflix.ribbon.RibbonClients;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
@@ -22,11 +23,13 @@ import org.springframework.web.server.ResponseStatusException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.matricula.alumno.config.DefaultRibbonConfig;
 import com.matricula.alumno.entities.Alumno;
 import com.matricula.alumno.services.IAlumnoService;
 
 @RestController
 @RequestMapping(value = "/alumno")
+//@RibbonClients (defaultConfiguration = DefaultRibbonConfig.class)
 public class AlumnoController {
 	
 	@Autowired

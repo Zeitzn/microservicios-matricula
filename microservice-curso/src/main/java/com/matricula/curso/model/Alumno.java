@@ -1,10 +1,12 @@
 package com.matricula.curso.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-@Builder
+@Builder @AllArgsConstructor @NoArgsConstructor
 public class Alumno {
 	
 	private int id;
@@ -12,5 +14,7 @@ public class Alumno {
 	private String nombres;
 
 	private String apellidos;
+	
+	private String port;
 	
 }
