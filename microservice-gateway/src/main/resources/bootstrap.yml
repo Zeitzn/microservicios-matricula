@@ -7,4 +7,5 @@ spring:
       uri: http://localhost:8888
       username: root
       password: s3cr3t
-
+  
+management:  endpoint:    routes:      enabled: true
