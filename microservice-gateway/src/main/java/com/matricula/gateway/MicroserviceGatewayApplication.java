@@ -5,10 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.cloud.netflix.zuul.filters.RouteLocator;
 import org.springframework.context.annotation.Bean;
 
 import com.matricula.gateway.config.CustomFallbackProvider;
 import com.matricula.gateway.config.ZuulPreFilter;
+import com.matricula.gateway.config.ZuulPreFilter2;
 
 @SpringBootApplication
 @EnableZuulProxy
@@ -21,8 +23,13 @@ public class MicroserviceGatewayApplication {
 	}
 	
 	@Bean
-	public ZuulPreFilter prefilter() {
+	public ZuulPreFilter prefilter1() {
 		return new ZuulPreFilter();
+	}
+	
+	@Bean
+	public ZuulPreFilter2 prefilter2(RouteLocator routeLocator) {
+		return new ZuulPreFilter2(routeLocator);
 	}
 	
 	@Bean

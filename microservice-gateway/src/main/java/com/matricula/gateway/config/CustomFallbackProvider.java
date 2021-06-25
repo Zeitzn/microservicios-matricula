@@ -13,7 +13,6 @@ import org.springframework.stereotype.Component;
 
 import com.netflix.hystrix.exception.HystrixTimeoutException;
 
-//@Component
 public class CustomFallbackProvider implements FallbackProvider {
 
 	@Override
@@ -23,8 +22,6 @@ public class CustomFallbackProvider implements FallbackProvider {
 
 	@Override
 	public ClientHttpResponse fallbackResponse(String route, Throwable cause) {
-		System.out.println("CAUSA DE FALLBACK");
-		System.out.println(cause);
 		if (cause instanceof HystrixTimeoutException) {
 			return response(HttpStatus.GATEWAY_TIMEOUT);
 		}else {
@@ -45,7 +42,6 @@ public class CustomFallbackProvider implements FallbackProvider {
 			
 			@Override
 			public InputStream getBody() throws IOException {
-//				return new ByteArrayInputStream(getStatusText().concat(" fallback").getBytes());
 				return new ByteArrayInputStream("{\"message\":\"Servicio no disponible. Fallback\"}".getBytes());
 			}
 			

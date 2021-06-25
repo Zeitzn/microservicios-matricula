@@ -6,6 +6,19 @@ spring:
     config:
       uri: http://localhost:8888
       username: root
-      password: s3cr3t
+      password: s3cr3t  profiles:    active:    - prod
   
 management:  endpoint:    routes:      enabled: true
+      
+    
+#LOG
+logging:
+  level:
+    org.springframework: ERROR
+    com.matricula.gateway: DEBUG
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    file: "%d %p %c{1.} [%t] %m%n"
+  file: app.log
+  
+  

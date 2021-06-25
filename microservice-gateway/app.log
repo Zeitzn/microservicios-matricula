@@ -1,0 +1,4 @@
+2021-06-25 00:21:11,482 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-25 00:21:13,477 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-25 00:21:20,789 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.677 seconds (JVM running for 14.899)
+2021-06-25 00:21:34,378 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Pre2:Petición GET a http://localhost:8080/cursos/matricula/findAll - microservicio microservice-curso

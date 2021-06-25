@@ -30,7 +30,7 @@ public class ZuulPreFilter extends ZuulFilter {
 	@Override
 	public Object run() throws ZuulException {
 		final HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
-		LOGGER.info("Petición {} a {}", request.getMethod(), request.getRequestURL().toString());		
+//		LOGGER.info("Petición {} a {}", request.getMethod(), request.getRequestURL().toString());		
 		//Verificamos si recibimo el parámetro { app } en lso headers
 		try {
 			String app = request.getHeader("app");
