@@ -9,6 +9,7 @@ import org.springframework.cloud.netflix.zuul.filters.RouteLocator;
 import org.springframework.context.annotation.Bean;
 
 import com.matricula.gateway.config.CustomFallbackProvider;
+import com.matricula.gateway.config.ZuulPostFilter;
 import com.matricula.gateway.config.ZuulPreFilter;
 import com.matricula.gateway.config.ZuulPreFilter2;
 
@@ -30,6 +31,11 @@ public class MicroserviceGatewayApplication {
 	@Bean
 	public ZuulPreFilter2 prefilter2(RouteLocator routeLocator) {
 		return new ZuulPreFilter2(routeLocator);
+	}
+	
+	@Bean
+	public ZuulPostFilter postfilter() {
+		return new ZuulPostFilter();
 	}
 	
 	@Bean

@@ -1,7 +1,6 @@
 package com.matricula.gateway.config;
 
-import java.util.Enumeration;
-import java.util.Map;
+import java.time.Instant;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -38,8 +37,10 @@ public class ZuulPreFilter2 extends ZuulFilter {
 		String path = ctx.getRequest().getRequestURI();
 		String instanceId=this.routeLocator.getMatchingRoute(path).getLocation();
 		
-		LOGGER.info("Prefilter 2: Petición {} a {} de {}", request.getMethod(), request.getRequestURL().toString(), instanceId);		
+		LOGGER.info("Prefilter 2:: Petición {} a {} de {}", request.getMethod(), request.getRequestURL().toString(), instanceId);		
 
+		long startTime = Instant.now().toEpochMilli();
+        ctx.put("startTime", startTime);
 		return null;
 	}
 
