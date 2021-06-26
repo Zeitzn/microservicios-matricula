@@ -19,6 +19,10 @@ zuul:
       path: /cursos/**
       sensitive-headers:
       service-id: microservice-curso
+    composer:
+      path: /composer/**
+      sensitive-headers:
+      service-id: microservice-composer
     uaa:
       path: /uaa/**
       sensitive-headers:
