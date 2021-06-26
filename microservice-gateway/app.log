@@ -136,3 +136,111 @@
 2021-06-26 03:45:13,155 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
 2021-06-26 03:45:23,573 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
 2021-06-26 03:45:23,624 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 51 milisegundos
+2021-06-26 03:45:48,768 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 03:45:48,823 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 55 milisegundos
+2021-06-26 04:01:13,644 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:01:15,011 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:01:21,518 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.217 seconds (JVM running for 14.142)
+2021-06-26 04:01:46,629 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:01:48,344 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:01:56,020 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.988 seconds (JVM running for 15.141)
+2021-06-26 04:02:12,752 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:02:14,239 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 1484 milisegundos
+2021-06-26 04:02:20,691 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:02:20,766 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 74 milisegundos
+2021-06-26 04:03:48,183 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:03:50,017 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:03:57,870 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.139 seconds (JVM running for 15.319)
+2021-06-26 04:04:02,211 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:04:02,896 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 684 milisegundos
+2021-06-26 04:04:48,398 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:04:50,018 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:05:00,112 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 20.01 seconds (JVM running for 21.205)
+2021-06-26 04:05:10,323 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:05:11,051 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 724 milisegundos
+2021-06-26 04:05:14,613 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:05:14,847 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 104 milisegundos
+2021-06-26 04:05:57,676 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:05:57,741 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 65 milisegundos
+2021-06-26 04:06:47,745 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:06:49,585 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:06:57,310 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.38 seconds (JVM running for 15.474)
+2021-06-26 04:07:24,186 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:07:24,687 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 499 milisegundos
+2021-06-26 04:07:26,217 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:07:26,259 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 42 milisegundos
+2021-06-26 04:08:18,316 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:08:18,363 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 46 milisegundos
+2021-06-26 04:09:27,521 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:09:28,778 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:09:35,147 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 11.715 seconds (JVM running for 12.724)
+2021-06-26 04:09:46,329 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:09:46,837 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 506 milisegundos
+2021-06-26 04:10:04,093 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:10:04,190 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 97 milisegundos
+2021-06-26 04:10:33,776 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:10:33,820 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 44 milisegundos
+2021-06-26 04:11:02,848 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:11:02,894 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 44 milisegundos
+2021-06-26 04:13:29,802 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:13:31,441 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:13:38,709 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.049 seconds (JVM running for 13.978)
+2021-06-26 04:14:28,061 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:14:29,888 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:14:37,357 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.579 seconds (JVM running for 16.2)
+2021-06-26 04:15:59,032 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:15:59,510 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 476 milisegundos
+2021-06-26 04:16:08,387 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:16:08,438 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 51 milisegundos
+2021-06-26 04:16:09,296 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:16:09,362 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 65 milisegundos
+2021-06-26 04:16:17,119 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 04:16:17,143 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 24 milisegundos
+2021-06-26 04:16:58,406 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 04:16:58,433 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 27 milisegundos
+2021-06-26 04:17:03,866 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/2 de microservice-curso
+2021-06-26 04:17:03,891 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 25 milisegundos
+2021-06-26 04:17:08,447 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 04:17:08,495 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 48 milisegundos
+2021-06-26 04:17:34,433 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:34,485 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 52 milisegundos
+2021-06-26 04:17:41,504 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:41,554 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 50 milisegundos
+2021-06-26 04:17:42,699 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:42,743 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 43 milisegundos
+2021-06-26 04:17:43,492 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:43,533 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 41 milisegundos
+2021-06-26 04:17:44,579 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:44,626 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 46 milisegundos
+2021-06-26 04:17:45,102 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:45,144 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 41 milisegundos
+2021-06-26 04:17:46,093 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:46,132 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 39 milisegundos
+2021-06-26 04:18:23,176 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:18:23,223 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 46 milisegundos
+2021-06-26 04:18:37,999 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:18:38,047 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 48 milisegundos
+2021-06-26 04:19:15,989 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:19:17,841 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:19:25,902 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.538 seconds (JVM running for 15.752)
+2021-06-26 04:19:33,233 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/uaa/user de microservice-uaa
+2021-06-26 04:19:33,649 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 414 milisegundos
+2021-06-26 04:19:57,071 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/uaa/user de microservice-uaa
+2021-06-26 04:19:57,077 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 6 milisegundos
+2021-06-26 04:19:59,528 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/uaa/user de microservice-uaa
+2021-06-26 04:19:59,536 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 8 milisegundos
+2021-06-26 04:20:12,859 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/uaa/user de microservice-uaa
+2021-06-26 04:20:12,868 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 8 milisegundos
+2021-06-26 04:20:13,998 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/uaa/user de microservice-uaa
+2021-06-26 04:20:14,004 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 5 milisegundos
+2021-06-26 04:20:29,091 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:20:29,228 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 136 milisegundos
+2021-06-26 04:21:04,280 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:21:04,347 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 66 milisegundos
+2021-06-26 04:22:56,263 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:22:57,898 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:23:05,388 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.674 seconds (JVM running for 14.833)
+2021-06-26 04:23:08,531 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:23:09,304 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 770 milisegundos
+2021-06-26 04:23:17,887 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:23:17,979 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 91 milisegundos
