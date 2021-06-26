@@ -42,6 +42,10 @@ public class CustomFallbackProvider implements FallbackProvider {
 			
 			@Override
 			public InputStream getBody() throws IOException {
+				System.out.println("ERROR:");
+				System.out.println(getStatusText());
+				System.out.println(getStatusCode());
+				System.out.println(getRawStatusCode());
 				return new ByteArrayInputStream("{\"message\":\"Servicio no disponible. Fallback\"}".getBytes());
 			}
 			

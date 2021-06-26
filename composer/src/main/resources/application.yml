@@ -1,0 +1,18 @@
+server:
+  port: 9999
+
+spring:
+  application:
+   name: microservice-composer
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+    
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:3333/user

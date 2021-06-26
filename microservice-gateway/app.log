@@ -244,3 +244,95 @@
 2021-06-26 04:23:09,304 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 770 milisegundos
 2021-06-26 04:23:17,887 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
 2021-06-26 04:23:17,979 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 91 milisegundos
+2021-06-26 16:35:27,574 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 16:35:28,955 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 16:35:35,385 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.977 seconds (JVM running for 16.084)
+2021-06-26 16:37:18,333 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:18,853 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 517 milisegundos
+2021-06-26 16:37:24,230 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:24,232 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:25,395 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:25,397 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:26,491 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:26,493 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:37:27,286 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:27,289 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:27,811 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:27,814 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:34,098 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:34,100 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:35,004 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:35,006 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:37:35,744 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:35,746 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:36,294 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:36,300 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 6 milisegundos
+2021-06-26 16:37:50,196 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:50,197 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:38:32,542 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:38:32,544 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:41:40,996 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 16:41:42,955 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 16:41:50,540 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 22.134 seconds (JVM running for 23.152)
+2021-06-26 16:42:31,667 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:42:32,143 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 474 milisegundos
+2021-06-26 16:42:37,422 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:42:37,424 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:43:28,932 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:28,935 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 3 milisegundos
+2021-06-26 16:43:35,071 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:35,074 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:43:36,733 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:36,736 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 3 milisegundos
+2021-06-26 16:43:37,487 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:37,489 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:43:38,050 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:38,053 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:43:39,657 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:39,659 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:43:40,230 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:40,232 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:43:48,358 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:48,360 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:43:49,238 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:49,239 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:44:33,324 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:44:33,326 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:46:33,370 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 16:46:35,169 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 16:46:43,505 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.856 seconds (JVM running for 16.427)
+2021-06-26 16:47:18,370 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:47:18,805 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 433 milisegundos
+2021-06-26 16:48:28,739 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 16:48:30,595 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 16:48:40,405 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 16.006 seconds (JVM running for 17.103)
+2021-06-26 16:48:59,927 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:49:00,363 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 434 milisegundos
+2021-06-26 16:49:17,600 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 16:49:18,755 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 1154 milisegundos
+2021-06-26 16:49:20,824 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 16:49:20,853 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 29 milisegundos
+2021-06-26 16:49:24,823 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 16:49:24,841 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 18 milisegundos
+2021-06-26 16:49:26,948 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 16:49:26,968 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 20 milisegundos
+2021-06-26 16:49:38,378 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/composer/matricula/findAll de microservice-composer
+2021-06-26 16:49:38,380 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:49:54,140 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matricula de microservice-composer
+2021-06-26 16:49:54,142 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:49:57,504 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:49:57,506 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:49:59,556 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:49:59,558 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:51:16,118 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:51:16,120 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:51:17,310 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:51:17,312 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:51:50,329 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:51:51,335 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 1006 milisegundos
+2021-06-26 16:51:57,517 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:51:57,617 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 100 milisegundos
+2021-06-26 16:52:43,914 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 16:52:44,161 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 247 milisegundos
+2021-06-26 16:54:28,734 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 16:54:28,807 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 73 milisegundos
