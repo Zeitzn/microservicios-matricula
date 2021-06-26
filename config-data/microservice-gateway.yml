@@ -11,12 +11,18 @@ eureka:
 
 zuul:
   routes:
-    catalogo:
+    alumnos:
       path: /alumnos/**
+      sensitive-headers:
       service-id: microservice-alumno
-    compra:
+    cursos:
       path: /cursos/**
+      sensitive-headers:
       service-id: microservice-curso
+    uaa:
+      path: /uaa/**
+      sensitive-headers:
+      service-id: microservice-uaa
 
 
 # #Configuracion a Gateway (Spring cloud)
