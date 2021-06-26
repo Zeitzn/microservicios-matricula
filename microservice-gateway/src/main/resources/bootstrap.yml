@@ -10,6 +10,11 @@ spring:
   
 management:  endpoint:    routes:      enabled: true
       
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:3333/user
+    
     
 #LOG
 logging:

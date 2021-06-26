@@ -12,41 +12,20 @@ import org.springframework.core.env.Environment;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-//@Configuration
 public class LoadBalancerConfiguration {
 	
-//	private final CircuitBreakerRegistry registry;
-//    private final FallbackAlumnoClient fallbackAlumnoClient;
-
-//	@Bean
-//	public ServiceInstanceListSupplier discoveryClientServiceInstanceListSupplier(
-//			ConfigurableApplicationContext context) {
-//		System.out.println("Configuring Load balancer to prefer same instance");
-//		return ServiceInstanceListSupplier.builder().withBlockingDiscoveryClient().withSameInstancePreference()
-//				.build(context);
-//	}
 
 	@Bean
 	ReactorLoadBalancer<ServiceInstance> randomLoadBalancer(Environment environment,
 			LoadBalancerClientFactory loadBalancerClientFactory) {
 		String name = environment.getProperty(LoadBalancerClientFactory.PROPERTY_NAME);
 		
-//		return new CustomLoadBalancer(
-//				loadBalancerClientFactory.getLazyProvider(name, ServiceInstanceListSupplier.class), name);
-		return new RandomLoadBalancer(
+		//Selecciona la instancia del puerto mayor
+		return new CustomLoadBalancer(
 				loadBalancerClientFactory.getLazyProvider(name, ServiceInstanceListSupplier.class), name);
+//		return new RandomLoadBalancer(
+//				loadBalancerClientFactory.getLazyProvider(name, ServiceInstanceListSupplier.class), name);
 	}
 	
-//	CIRCUIT BREAKER
-//	@Bean
-//    @Scope("prototype")
-//    public Feign.Builder feignBuilder() {
-//        CircuitBreaker circuitBreaker = registry.circuitBreaker(IAlumnoClient.SERVICE_NAME);
-//        FeignDecorators decorators = FeignDecorators.builder()
-//                .withCircuitBreaker(circuitBreaker)
-//                .withFallback(fallbackAlumnoClient)
-//                .build();
-//        return Resilience4jFeign.builder(decorators);
-//    }
 
 }

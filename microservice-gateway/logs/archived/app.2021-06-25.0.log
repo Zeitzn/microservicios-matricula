@@ -1,0 +1,95 @@
+2021-06-25 00:21:11,482 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-25 00:21:13,477 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-25 00:21:20,789 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.677 seconds (JVM running for 14.899)
+2021-06-25 00:21:34,378 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Pre2:Petición GET a http://localhost:8080/cursos/matricula/findAll - microservicio microservice-curso
+2021-06-25 00:38:28,224 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-25 00:38:29,685 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-25 00:38:36,485 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.571 seconds (JVM running for 14.632)
+2021-06-25 00:38:43,465 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-25 00:39:48,968 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-25 00:39:50,689 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-25 00:39:57,374 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.487 seconds (JVM running for 15.12)
+2021-06-25 00:40:35,067 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-25 00:40:35,862 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter:http://localhost:8080/cursos/matricula/findAll:: Tiempod de respuesta=790
+2021-06-25 00:42:44,338 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-25 00:42:45,937 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-25 00:42:52,323 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 12.898 seconds (JVM running for 14.32)
+2021-06-25 00:43:02,797 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-25 00:43:03,423 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 622 milisegundos
+2021-06-25 00:57:40,746 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(20)-127.0.0.1] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:1966210979 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:183)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:176)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-25 22:10:10,860 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-25 22:10:12,163 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-25 22:10:18,270 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.789 seconds (JVM running for 15.751)
+2021-06-25 22:24:39,456 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-25 22:24:40,714 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-25 22:24:47,065 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 12.896 seconds (JVM running for 13.813)

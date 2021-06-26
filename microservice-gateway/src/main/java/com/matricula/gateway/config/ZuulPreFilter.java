@@ -27,6 +27,7 @@ public class ZuulPreFilter extends ZuulFilter {
 	public Object run() throws ZuulException {
 		final HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
 //		LOGGER.info("Petición {} a {}", request.getMethod(), request.getRequestURL().toString());		
+		System.out.println("PREFILTER ZUUL");
 		//Verificamos si recibimo el parámetro { app } en lso headers
 		try {
 			String app = request.getHeader("app");

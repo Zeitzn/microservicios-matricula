@@ -1,10 +1,6 @@
 package com.matricula.curso.config;
 
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Random;
-import java.util.concurrent.atomic.AtomicInteger;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -26,37 +22,15 @@ public class CustomLoadBalancer implements ReactorServiceInstanceLoadBalancer {
 
 	private static final Log log = LogFactory.getLog(RoundRobinLoadBalancer.class);
 
-//	final AtomicInteger position;
-
 	final String serviceId;
 
 	ObjectProvider<ServiceInstanceListSupplier> serviceInstanceListSupplierProvider;
 
-	/**
-	 * @param serviceInstanceListSupplierProvider a provider of
-	 * {@link ServiceInstanceListSupplier} that will be used to get available instances
-	 * @param serviceId id of the service for which to choose an instance
-	 */
 	public CustomLoadBalancer(ObjectProvider<ServiceInstanceListSupplier> serviceInstanceListSupplierProvider,
 			String serviceId) {
-//		this(serviceInstanceListSupplierProvider, serviceId, new Random().nextInt(1000));
 		this.serviceId = serviceId;
 		this.serviceInstanceListSupplierProvider = serviceInstanceListSupplierProvider;
-//		this.position = new AtomicInteger(seedPosition);
 	}
-
-	/**
-	 * @param serviceInstanceListSupplierProvider a provider of
-	 * {@link ServiceInstanceListSupplier} that will be used to get available instances
-	 * @param serviceId id of the service for which to choose an instance
-	 * @param seedPosition Round Robin element position marker
-	 */
-//	public CustomLoadBalancer(ObjectProvider<ServiceInstanceListSupplier> serviceInstanceListSupplierProvider,
-//			String serviceId, int seedPosition) {
-//		this.serviceId = serviceId;
-//		this.serviceInstanceListSupplierProvider = serviceInstanceListSupplierProvider;
-//		this.position = new AtomicInteger(seedPosition);
-//	}
 
 	@SuppressWarnings("rawtypes")
 	@Override
@@ -78,8 +52,6 @@ public class CustomLoadBalancer implements ReactorServiceInstanceLoadBalancer {
 	}
 
 	private Response<ServiceInstance> getInstanceResponse(List<ServiceInstance> instances) {
-		System.out.println("INSTANCIAS DISPONIBLES");
-//		System.out.println(instances);
 		if (instances.isEmpty()) {
 			if (log.isWarnEnabled()) {
 				log.warn("No servers available for service: " + serviceId);

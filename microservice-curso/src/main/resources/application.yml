@@ -5,7 +5,8 @@ server:
 
 #Habilita circuitbreaker en feign para leer los fallbacks
 feign:  circuitbreaker:    enabled: true
-
+  compression:    request:      enabled: true
+    response:      enabled: true
 
 resilience4j:  circuitbreaker:    instances:      microservice-alumno:
         register-health-indicator: true
@@ -18,6 +19,10 @@ resilience4j:  circuitbreaker:    instances:      microservice-alumno:
         wait-duration-in-open-state: 5s
         sliding-window-type: count-based
         
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:3333/user
 #management:#  health:#    circuitbreakers:#      enabled: true
 #  endpoints:#    web:#      exposure:#        include:#        - health
 #  endpoint:#    health:#      show-details: always

@@ -1,2 +1,7 @@
 server:
  port: 5555
+ 
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:3333/user

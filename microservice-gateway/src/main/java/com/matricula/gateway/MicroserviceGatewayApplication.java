@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.cloud.netflix.zuul.filters.RouteLocator;
 import org.springframework.context.annotation.Bean;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 
 import com.matricula.gateway.config.CustomFallbackProvider;
 import com.matricula.gateway.config.ZuulPostFilter;
@@ -16,7 +17,8 @@ import com.matricula.gateway.config.ZuulPreFilter2;
 @SpringBootApplication
 @EnableZuulProxy
 @EnableDiscoveryClient
-@EnableEurekaClient
+@EnableResourceServer
+//@EnableEurekaClient
 public class MicroserviceGatewayApplication {
 
 	public static void main(String[] args) {
