@@ -500,3 +500,14 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 20:52:26,368 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 20:52:28,032 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 20:52:37,159 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 16.084 seconds (JVM running for 17.169)
+2021-06-26 20:57:40,265 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 20:57:41,757 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 1489 milisegundos
+2021-06-26 20:57:44,858 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 20:57:45,863 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 1004 milisegundos
+2021-06-26 20:57:47,552 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 20:57:47,673 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 121 milisegundos
+2021-06-26 20:57:58,193 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 20:57:58,536 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 343 milisegundos
