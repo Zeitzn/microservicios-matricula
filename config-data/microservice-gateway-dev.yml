@@ -28,6 +28,10 @@ zuul:
       sensitive-headers:
       service-id: microservice-uaa
 
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:4445/user
 
 # #Configuracion a Gateway (Spring cloud)
 # spring:

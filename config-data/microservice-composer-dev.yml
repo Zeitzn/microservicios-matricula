@@ -4,6 +4,11 @@ server:
     include-message: always
     include-binding-errors: always
 
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:4445/user
+      
 eureka:
   client:
     serviceUrl:

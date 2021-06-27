@@ -19,10 +19,6 @@ resilience4j:  circuitbreaker:    instances:      microservice-alumno:
         wait-duration-in-open-state: 5s
         sliding-window-type: count-based
         
-security:
-  oauth2:
-    resource:
-      user-info-uri: http://localhost:3333/user
 #management:#  health:#    circuitbreakers:#      enabled: true
 #  endpoints:#    web:#      exposure:#        include:#        - health
 #  endpoint:#    health:#      show-details: always
