@@ -19,7 +19,7 @@ resilience4j:  circuitbreaker:    instances:      microservice-alumno:
         wait-duration-in-open-state: 5s
         sliding-window-type: count-based  timelimiter:    configs:      default:
             cancelRunningFuture: false
-            timeoutDuration: 2s #Timeout
+            timeoutDuration: 10s #Timeout
 #management:#  health:#    circuitbreakers:#      enabled: true
 #  endpoints:#    web:#      exposure:#        include:#        - health
 #  endpoint:#    health:#      show-details: always

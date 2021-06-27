@@ -1,5 +1,5 @@
 # Arquitectura de Microservicios
-## Dependencias utilizadas <a name = "dependencies"></a>
+## Dependencias utilizadas
 - [Spring Cloud Config](#config)
 - [Netfilx Eureka](#eureka)
 - [Resilience4j](#resilience)
