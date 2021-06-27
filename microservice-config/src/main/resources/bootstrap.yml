@@ -2,6 +2,8 @@ server:
   port: 8888
  
 spring:
+ profiles:
+  active: dev, prod
  cloud:
    discovery:
     enabled: true
@@ -11,15 +13,15 @@ spring:
         default-label: main
         uri: "https://github.com/Zeitzn/microservicios-matricula.git"
         search-paths: config-data
-        username: ${GIT_USERNAME}
-        password: ${GIT_PASSWORD}
-        repos:
-          development:
-            pattern:
-              - '*/dev'
-            uri: "https://github.com/Zeitzn/microservicios-matricula.git"
-            username: ${GIT_USERNAME}
-            password: ${GIT_PASSWORD}
+        #username: ${GIT_USERNAME}
+        #password: ${GIT_PASSWORD}
+        #repos:
+        #  development:
+        #    pattern:
+        #      - '*/dev'
+        #    uri: "https://github.com/Zeitzn/microservicios-matricula.git"
+        #    username: ${GIT_USERNAME}
+        #    password: ${GIT_PASSWORD}
         #uri: "https://github.com/Zeitzn/microservicios-matricula.git"
         #search-paths: config-data
         #username: ${GIT_USERNAME}

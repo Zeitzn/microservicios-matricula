@@ -7,5 +7,7 @@ spring:
       uri: http://localhost:8888
       username: root
       password: s3cr3t
-      
+  profiles:
+   active:
+   - prod      
 springdoc:  api-docs:    path: curso-apis
