@@ -13,19 +13,20 @@ spring:
         default-label: main
         uri: "https://github.com/Zeitzn/microservicios-matricula.git"
         search-paths: config-data
-        #username: ${GIT_USERNAME}
-        #password: ${GIT_PASSWORD}
-        #repos:
-        #  development:
-        #    pattern:
-        #      - '*/dev'
-        #    uri: "https://github.com/Zeitzn/microservicios-matricula.git"
-        #    username: ${GIT_USERNAME}
-        #    password: ${GIT_PASSWORD}
-        #uri: "https://github.com/Zeitzn/microservicios-matricula.git"
-        #search-paths: config-data
-        #username: ${GIT_USERNAME}
-        #password: ${GIT_PASSWORD}
+        username: ${GIT_USERNAME}
+        password: ${GIT_PASSWORD}
+        repos:
+          production:
+            pattern:
+              - '*/prod'
+            default-label: main
+            uri: "https://github.com/Zeitzn/microservicios-matricula-config.git"
+          development:
+            pattern:
+              - '*/dev'
+            default-label: main
+            uri: "https://github.com/Zeitzn/microservicios-matricula.git"
+            search-paths: config-data
  security:
    user:
      name: root
