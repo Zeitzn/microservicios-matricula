@@ -1,0 +1,913 @@
+2021-06-26 01:25:38,438 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 01:25:39,895 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 01:25:46,425 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 12.114 seconds (JVM running for 13.178)
+2021-06-26 01:32:32,467 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 01:32:34,277 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 01:32:41,490 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.544 seconds (JVM running for 14.774)
+2021-06-26 01:45:48,518 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 01:45:50,246 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 01:45:57,602 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.13 seconds (JVM running for 14.112)
+2021-06-26 01:53:59,501 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 01:54:01,036 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 01:54:07,961 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 12.359 seconds (JVM running for 13.249)
+2021-06-26 01:58:30,608 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 01:58:32,266 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 01:58:38,628 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 12.466 seconds (JVM running for 13.916)
+2021-06-26 02:00:45,058 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 02:00:46,357 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 02:00:52,806 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 11.751 seconds (JVM running for 12.665)
+2021-06-26 02:02:28,918 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 02:02:29,848 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 928 milisegundos
+2021-06-26 02:02:40,716 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:02:41,806 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 1090 milisegundos
+2021-06-26 02:03:47,830 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:03:47,859 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 28 milisegundos
+2021-06-26 02:03:51,055 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:03:51,084 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 29 milisegundos
+2021-06-26 02:03:54,564 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:03:54,588 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 24 milisegundos
+2021-06-26 02:05:48,648 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:05:48,675 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 27 milisegundos
+2021-06-26 02:18:34,641 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:18:34,950 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 296 milisegundos
+2021-06-26 02:18:38,695 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:18:38,762 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 66 milisegundos
+2021-06-26 02:19:31,558 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:19:31,584 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 25 milisegundos
+2021-06-26 02:19:35,448 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:19:35,470 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 21 milisegundos
+2021-06-26 02:26:08,213 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 02:26:09,969 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 02:26:16,880 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 12.721 seconds (JVM running for 13.825)
+2021-06-26 02:26:47,096 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 02:26:48,308 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 02:26:54,512 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 11.304 seconds (JVM running for 12.202)
+2021-06-26 02:27:14,890 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:27:15,382 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 490 milisegundos
+2021-06-26 02:36:43,771 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:36:43,947 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 171 milisegundos
+2021-06-26 02:41:53,063 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:41:53,135 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 72 milisegundos
+2021-06-26 02:42:49,051 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:42:49,130 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 78 milisegundos
+2021-06-26 02:51:35,078 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:51:35,160 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 80 milisegundos
+2021-06-26 02:53:28,041 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:53:28,065 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 24 milisegundos
+2021-06-26 02:54:32,348 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:54:32,371 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 22 milisegundos
+2021-06-26 02:54:33,863 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:54:33,883 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 19 milisegundos
+2021-06-26 02:57:35,037 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 02:57:35,230 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 193 milisegundos
+2021-06-26 03:00:49,452 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:00:49,820 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 368 milisegundos
+2021-06-26 03:01:14,265 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:01:14,268 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 03:01:29,948 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:01:29,950 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 03:02:33,504 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:02:33,714 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 209 milisegundos
+2021-06-26 03:02:37,670 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:02:37,693 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 23 milisegundos
+2021-06-26 03:02:38,796 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:02:38,819 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 22 milisegundos
+2021-06-26 03:03:06,256 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:03:06,278 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 21 milisegundos
+2021-06-26 03:22:50,686 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:22:50,857 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 168 milisegundos
+2021-06-26 03:26:45,271 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:26:45,377 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 103 milisegundos
+2021-06-26 03:27:26,097 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:27:26,100 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 3 milisegundos
+2021-06-26 03:27:32,067 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:27:32,071 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 4 milisegundos
+2021-06-26 03:27:33,094 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:27:33,097 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 03:27:34,148 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:27:34,151 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 03:27:35,128 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:27:35,130 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 03:27:36,267 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:27:36,268 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 03:27:37,238 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:27:37,240 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 03:27:38,360 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:27:38,361 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 03:27:39,817 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:27:39,818 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 03:27:41,026 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:27:41,028 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 03:27:48,810 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:27:48,838 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 27 milisegundos
+2021-06-26 03:31:53,569 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:31:53,855 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 286 milisegundos
+2021-06-26 03:32:34,644 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:32:34,741 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 95 milisegundos
+2021-06-26 03:33:03,963 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:33:03,983 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 19 milisegundos
+2021-06-26 03:33:26,828 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:33:26,848 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 19 milisegundos
+2021-06-26 03:33:28,401 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:33:28,417 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 16 milisegundos
+2021-06-26 03:34:44,752 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:34:44,817 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 64 milisegundos
+2021-06-26 03:37:22,238 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:37:22,327 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 88 milisegundos
+2021-06-26 03:39:12,624 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:39:12,650 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 26 milisegundos
+2021-06-26 03:39:42,542 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:39:43,996 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 1454 milisegundos
+2021-06-26 03:40:05,231 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 03:40:05,508 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 276 milisegundos
+2021-06-26 03:44:30,122 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 03:44:30,441 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 319 milisegundos
+2021-06-26 03:44:32,045 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 03:44:32,108 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 63 milisegundos
+2021-06-26 03:44:40,455 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 03:44:40,510 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 54 milisegundos
+2021-06-26 03:44:50,774 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 03:44:50,777 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 3 milisegundos
+2021-06-26 03:44:55,280 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 03:44:55,283 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 03:45:00,998 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 03:45:01,000 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 03:45:13,153 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 03:45:13,155 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 03:45:23,573 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 03:45:23,624 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 51 milisegundos
+2021-06-26 03:45:48,768 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 03:45:48,823 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 55 milisegundos
+2021-06-26 04:01:13,644 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:01:15,011 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:01:21,518 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.217 seconds (JVM running for 14.142)
+2021-06-26 04:01:46,629 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:01:48,344 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:01:56,020 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.988 seconds (JVM running for 15.141)
+2021-06-26 04:02:12,752 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:02:14,239 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 1484 milisegundos
+2021-06-26 04:02:20,691 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:02:20,766 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 74 milisegundos
+2021-06-26 04:03:48,183 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:03:50,017 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:03:57,870 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.139 seconds (JVM running for 15.319)
+2021-06-26 04:04:02,211 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:04:02,896 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 684 milisegundos
+2021-06-26 04:04:48,398 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:04:50,018 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:05:00,112 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 20.01 seconds (JVM running for 21.205)
+2021-06-26 04:05:10,323 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:05:11,051 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 724 milisegundos
+2021-06-26 04:05:14,613 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:05:14,847 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 104 milisegundos
+2021-06-26 04:05:57,676 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:05:57,741 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 65 milisegundos
+2021-06-26 04:06:47,745 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:06:49,585 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:06:57,310 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.38 seconds (JVM running for 15.474)
+2021-06-26 04:07:24,186 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:07:24,687 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 499 milisegundos
+2021-06-26 04:07:26,217 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:07:26,259 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 42 milisegundos
+2021-06-26 04:08:18,316 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:08:18,363 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 46 milisegundos
+2021-06-26 04:09:27,521 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:09:28,778 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:09:35,147 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 11.715 seconds (JVM running for 12.724)
+2021-06-26 04:09:46,329 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:09:46,837 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 506 milisegundos
+2021-06-26 04:10:04,093 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:10:04,190 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 97 milisegundos
+2021-06-26 04:10:33,776 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:10:33,820 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 44 milisegundos
+2021-06-26 04:11:02,848 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:11:02,894 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 44 milisegundos
+2021-06-26 04:13:29,802 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:13:31,441 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:13:38,709 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.049 seconds (JVM running for 13.978)
+2021-06-26 04:14:28,061 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:14:29,888 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:14:37,357 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.579 seconds (JVM running for 16.2)
+2021-06-26 04:15:59,032 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:15:59,510 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 476 milisegundos
+2021-06-26 04:16:08,387 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:16:08,438 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 51 milisegundos
+2021-06-26 04:16:09,296 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:16:09,362 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 65 milisegundos
+2021-06-26 04:16:17,119 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 04:16:17,143 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 24 milisegundos
+2021-06-26 04:16:58,406 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 04:16:58,433 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 27 milisegundos
+2021-06-26 04:17:03,866 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/2 de microservice-curso
+2021-06-26 04:17:03,891 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 25 milisegundos
+2021-06-26 04:17:08,447 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findById/1 de microservice-curso
+2021-06-26 04:17:08,495 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 48 milisegundos
+2021-06-26 04:17:34,433 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:34,485 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 52 milisegundos
+2021-06-26 04:17:41,504 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:41,554 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 50 milisegundos
+2021-06-26 04:17:42,699 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:42,743 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 43 milisegundos
+2021-06-26 04:17:43,492 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:43,533 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 41 milisegundos
+2021-06-26 04:17:44,579 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:44,626 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 46 milisegundos
+2021-06-26 04:17:45,102 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:45,144 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 41 milisegundos
+2021-06-26 04:17:46,093 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:17:46,132 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 39 milisegundos
+2021-06-26 04:18:23,176 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:18:23,223 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 46 milisegundos
+2021-06-26 04:18:37,999 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:18:38,047 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 48 milisegundos
+2021-06-26 04:19:15,989 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:19:17,841 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:19:25,902 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.538 seconds (JVM running for 15.752)
+2021-06-26 04:19:33,233 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/uaa/user de microservice-uaa
+2021-06-26 04:19:33,649 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 414 milisegundos
+2021-06-26 04:19:57,071 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/uaa/user de microservice-uaa
+2021-06-26 04:19:57,077 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 6 milisegundos
+2021-06-26 04:19:59,528 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/uaa/user de microservice-uaa
+2021-06-26 04:19:59,536 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 8 milisegundos
+2021-06-26 04:20:12,859 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/uaa/user de microservice-uaa
+2021-06-26 04:20:12,868 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 8 milisegundos
+2021-06-26 04:20:13,998 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/uaa/user de microservice-uaa
+2021-06-26 04:20:14,004 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 5 milisegundos
+2021-06-26 04:20:29,091 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:20:29,228 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 136 milisegundos
+2021-06-26 04:21:04,280 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:21:04,347 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 66 milisegundos
+2021-06-26 04:22:56,263 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 04:22:57,898 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 04:23:05,388 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.674 seconds (JVM running for 14.833)
+2021-06-26 04:23:08,531 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:23:09,304 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 770 milisegundos
+2021-06-26 04:23:17,887 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 04:23:17,979 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 91 milisegundos
+2021-06-26 16:35:27,574 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 16:35:28,955 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 16:35:35,385 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.977 seconds (JVM running for 16.084)
+2021-06-26 16:37:18,333 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:18,853 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 517 milisegundos
+2021-06-26 16:37:24,230 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:24,232 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:25,395 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:25,397 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:26,491 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:26,493 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:37:27,286 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:27,289 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:27,811 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:27,814 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:34,098 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:34,100 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:35,004 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:35,006 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:37:35,744 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:35,746 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:37:36,294 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:36,300 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 6 milisegundos
+2021-06-26 16:37:50,196 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:37:50,197 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:38:32,542 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:38:32,544 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:41:40,996 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 16:41:42,955 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 16:41:50,540 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 22.134 seconds (JVM running for 23.152)
+2021-06-26 16:42:31,667 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:42:32,143 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 474 milisegundos
+2021-06-26 16:42:37,422 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:42:37,424 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:43:28,932 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:28,935 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 3 milisegundos
+2021-06-26 16:43:35,071 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:35,074 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:43:36,733 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:36,736 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 3 milisegundos
+2021-06-26 16:43:37,487 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:37,489 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:43:38,050 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:38,053 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:43:39,657 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:39,659 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:43:40,230 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:40,232 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:43:48,358 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:48,360 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:43:49,238 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:43:49,239 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:44:33,324 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:44:33,326 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:46:33,370 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 16:46:35,169 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 16:46:43,505 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 14.856 seconds (JVM running for 16.427)
+2021-06-26 16:47:18,370 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:47:18,805 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 433 milisegundos
+2021-06-26 16:48:28,739 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 16:48:30,595 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 16:48:40,405 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 16.006 seconds (JVM running for 17.103)
+2021-06-26 16:48:59,927 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-2] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:49:00,363 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-2] Post filter::GET:: Tiempo de respuesta = 434 milisegundos
+2021-06-26 16:49:17,600 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 16:49:18,755 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 1154 milisegundos
+2021-06-26 16:49:20,824 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 16:49:20,853 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 29 milisegundos
+2021-06-26 16:49:24,823 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 16:49:24,841 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 18 milisegundos
+2021-06-26 16:49:26,948 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 16:49:26,968 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 20 milisegundos
+2021-06-26 16:49:38,378 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/composer/matricula/findAll de microservice-composer
+2021-06-26 16:49:38,380 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:49:54,140 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matricula de microservice-composer
+2021-06-26 16:49:54,142 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:49:57,504 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:49:57,506 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 1 milisegundos
+2021-06-26 16:49:59,556 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:49:59,558 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:51:16,118 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:51:16,120 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:51:17,310 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-9] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:51:17,312 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-9] Post filter::GET:: Tiempo de respuesta = 2 milisegundos
+2021-06-26 16:51:50,329 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:51:51,335 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 1006 milisegundos
+2021-06-26 16:51:57,517 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 16:51:57,617 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 100 milisegundos
+2021-06-26 16:52:43,914 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 16:52:44,161 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 247 milisegundos
+2021-06-26 16:54:28,734 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 16:54:28,807 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 73 milisegundos
+2021-06-26 16:54:35,370 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-10] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 16:54:35,441 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-10] Post filter::GET:: Tiempo de respuesta = 70 milisegundos
+2021-06-26 19:33:36,532 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(207)-127.0.0.1] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:-1403412106 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:183)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:176)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor105.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 19:43:45,212 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 19:43:46,819 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 19:43:53,697 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 13.329 seconds (JVM running for 14.753)
+2021-06-26 19:47:40,144 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 19:47:41,771 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 1625 milisegundos
+2021-06-26 19:47:51,719 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 19:47:51,824 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 105 milisegundos
+2021-06-26 19:54:11,300 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 19:54:13,697 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 19:54:24,681 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 19.075 seconds (JVM running for 20.73)
+2021-06-26 19:57:57,612 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 19:57:59,274 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 1659 milisegundos
+2021-06-26 19:58:29,667 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-5] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 19:58:29,763 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-5] Post filter::GET:: Tiempo de respuesta = 95 milisegundos
+2021-06-26 19:58:50,333 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 19:58:51,436 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 1102 milisegundos
+2021-06-26 19:59:13,103 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-8] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 19:59:13,244 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-8] Post filter::GET:: Tiempo de respuesta = 140 milisegundos
+2021-06-26 20:02:53,419 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 20:02:53,576 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 157 milisegundos
+2021-06-26 20:06:25,151 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 20:06:25,251 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 100 milisegundos
+2021-06-26 20:31:00,713 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(50)-127.0.0.1] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:-821342816 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:183)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:176)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor118.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 20:52:26,368 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 20:52:28,032 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 20:52:37,159 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 16.084 seconds (JVM running for 17.169)
+2021-06-26 20:57:40,265 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-1] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 20:57:41,757 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-1] Post filter::GET:: Tiempo de respuesta = 1489 milisegundos
+2021-06-26 20:57:44,858 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 20:57:45,863 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 1004 milisegundos
+2021-06-26 20:57:47,552 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-6] Prefilter 2:: Petición GET a http://localhost:8080/composer/matriculas de microservice-composer
+2021-06-26 20:57:47,673 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-6] Post filter::GET:: Tiempo de respuesta = 121 milisegundos
+2021-06-26 20:57:58,193 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-7] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 20:57:58,536 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-7] Post filter::GET:: Tiempo de respuesta = 343 milisegundos
+2021-06-26 21:53:59,895 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(82)-127.0.0.1] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:-855696754 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:183)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:176)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 22:34:48,532 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 22:34:53,041 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 22:35:18,116 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 36.726 seconds (JVM running for 39.188)
+2021-06-26 22:37:06,084 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(10)-127.0.0.1] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:1426832421 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:183)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:176)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at jdk.internal.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 23:29:05,035 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 23:29:08,992 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 23:29:35,501 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 37.463 seconds (JVM running for 40.555)
+2021-06-26 23:30:08,264 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:651738814 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 23:30:42,332 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:651738814 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 23:31:16,712 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:651738814 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 23:31:50,808 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:651738814 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 23:32:24,903 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:651738814 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 23:32:58,962 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:651738814 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 23:33:18,511 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(12)-127.0.0.1] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:651738814 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:183)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:176)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at jdk.internal.reflect.GeneratedMethodAccessor118.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor120.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 23:35:50,207 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 23:35:55,445 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 23:36:18,225 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 37.267 seconds (JVM running for 41.756)
+2021-06-26 23:40:07,061 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 23:40:12,361 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 23:40:22,907 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 21.023 seconds (JVM running for 22.348)
+2021-06-26 23:43:16,889 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 23:43:19,182 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 23:43:30,269 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 18.134 seconds (JVM running for 20.132)
+2021-06-26 23:46:37,577 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:-8875862 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 23:46:40,226 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(9)-127.0.0.1] DiscoveryClient_MICROSERVICE-GATEWAY/microservice-gateway:-8875862 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:183)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:176)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor118.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-06-26 23:54:06,958 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] The following profiles are active: prod
+2021-06-26 23:54:09,278 ERROR org.apache.catalina.core.AprLifecycleListener [main] An incompatible version [1.1.22] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2021-06-26 23:54:19,281 INFO com.matricula.gateway.MicroserviceGatewayApplication [main] Started MicroserviceGatewayApplication in 17.05 seconds (JVM running for 18.275)
+2021-06-26 23:55:09,771 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-3] Prefilter 2:: Petición GET a http://localhost:8080/alumnos/alumno/findAll de microservice-alumno
+2021-06-26 23:55:19,914 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-3] Post filter::GET:: Tiempo de respuesta = 10141 milisegundos
+2021-06-26 23:55:40,507 INFO com.matricula.gateway.config.ZuulPreFilter2 [http-nio-8080-exec-4] Prefilter 2:: Petición GET a http://localhost:8080/cursos/matricula/findAll de microservice-curso
+2021-06-26 23:55:41,589 INFO com.matricula.gateway.config.ZuulPostFilter [http-nio-8080-exec-4] Post filter::GET:: Tiempo de respuesta = 1081 milisegundos
