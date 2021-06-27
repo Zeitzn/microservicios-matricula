@@ -22,7 +22,7 @@ Para el balanceo de carga. Se implementó una clase CustomLoadBalancer en el mic
 ## Feign <a name = "feign"></a>
 Utilizado en el microservicio microservice-curso para invocar a microservice-alumno, y también en composer para invocar a los microservicios microservice-curso y microservice-alumno.
 ## Zuul <a name = "zuul"></a>
-Enrutador para el manejo de peticiones. Se implementó un fallback personalizado, 2 pre filter y 1 post filter. Solo se permite el acceso mediante los métodos GET, HEADER, OPTION, POST, PUT, PATCH, DELETE. Los roles permitids son USER y ADMIN
+Enrutador para el manejo de peticiones. Se implementó un fallback personalizado, 2 pre filter y 1 post filter. Solo se permite el acceso mediante los métodos GET, HEADER, OPTION, POST, PUT, PATCH, DELETE. Los roles permitidos son USER y ADMIN
 ## Spring Security OAuth <a name = "security"></a>
 Implementación de un servidor UAA. Securiza todos los microservicios, permitiendo las peticciones solo mediante un token de autenticación (Bearer)
 

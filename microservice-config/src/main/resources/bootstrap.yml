@@ -13,6 +13,17 @@ spring:
         search-paths: config-data
         username: ${GIT_USERNAME}
         password: ${GIT_PASSWORD}
+        repos:
+          development:
+            pattern:
+              - '*/dev'
+            uri: "https://github.com/Zeitzn/microservicios-matricula.git"
+            username: ${GIT_USERNAME}
+            password: ${GIT_PASSWORD}
+        #uri: "https://github.com/Zeitzn/microservicios-matricula.git"
+        #search-paths: config-data
+        #username: ${GIT_USERNAME}
+        #password: ${GIT_PASSWORD}
  security:
    user:
      name: root

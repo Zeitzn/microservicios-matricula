@@ -1,0 +1,43 @@
+server:
+  port: 8081
+
+#Conexion a Eureka Server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${random.int}
+
+zuul:
+  routes:
+    alumnos:
+      path: /alumnos/**
+      sensitive-headers:
+      service-id: microservice-alumno
+    cursos:
+      path: /cursos/**
+      sensitive-headers:
+      service-id: microservice-curso
+    composer:
+      path: /composer/**
+      sensitive-headers:
+      service-id: microservice-composer
+    uaa:
+      path: /uaa/**
+      sensitive-headers:
+      service-id: microservice-uaa
+
+
+# #Configuracion a Gateway (Spring cloud)
+# spring:
+#   cloud:
+#     gateway:
+#       discovery:
+#         locator:
+#           enabled: true
+#       routes:
+#       - id: microservice-curso
+#         uri: lb://microservice-curso
+#         predicates:
+#         - Path=/cursos/**
